@@ -23,3 +23,13 @@ body{
 .navbar-brand:hover{
     color:#3C0000 !important;
 }
+
+.persona_image{
+    width:7vw;
+    height:4vw;
+    margin-left:20.5vw;
+}
+
+.intro_divider{
+    background-image: linear-gradient(to bottom right,#540b0e, #f25c54) !important; 
+}
