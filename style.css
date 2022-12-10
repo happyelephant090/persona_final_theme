@@ -1,35 +1,242 @@
 
 body{
-    background-color:#f8f9fa !important;
+    /* background: linear-gradient(135deg, #eee, #ccc); */
+    background-color:#efa7a7 !important;
+    
 }
 
 .navbar{
     /* background-image: linear-gradient(to bottom right,#540b0e, #f25c54) !important; */
     background-color:#540b0e;
+    border-bottom: 1vw solid #220901;
 }
-.navbar .navbar-brand{
-    color: white !important; 
+
+.nav-brand{
+    /* color: white !important;  */
     text-decoration:none;
     font-size: 2.1rem;
     font-weight:bolder;
     line-height: 1.5em;
-    letter-spacing:9px;
+    letter-spacing:5px;
     font-family:'Courier New', Courier, monospace;
 
     padding-top:0.1px;
-    margin-left:1.2vw;
+    margin-left:1vw;
 }
 
-.navbar-brand:hover{
-    color:#3C0000 !important;
+.nav-item{
+    /* padding-left:15px;
+    padding-right:15px; */
+    padding-top:5px;
+
+    border-right:2.5px solid black;
+
+
+    /* font-size: 0.95rem;
+    letter-spacing:2px; */
+    /* text-decoration:underline; */
+    font-family:'Courier New', Courier, monospace; 
+
+    cursor:grab;
 }
+
+/* .navbar-brand:hover{
+    color:#3C0000 !important;
+} */
 
 .persona_image{
     width:7vw;
     height:4vw;
-    margin-left:20.5vw;
+    margin-top:5vw;
+}
+
+h1{
+    /* margin-left:3vw;
+    margin-right:3vw; */
+    color:#00043a;
 }
 
 .intro_divider{
+    margin-top:5vw;
+    min-height:65vh;
+    border:3vw solid white;
     background-image: linear-gradient(to bottom right,#540b0e, #f25c54) !important; 
+}
+
+.underline{
+    margin-left:1vw;
+    margin-right:1vw;
+    margin-bottom:3vw;
+
+    border:9px solid #e01e37;
+}
+
+
+h1{
+    font-family: 'Squada One';
+    text-align:center;
+}
+
+.dorito_image{
+    height:3vw;
+    width:18vw;
+}
+
+.chips_divider{
+    margin-left:4.5vw;
+    margin-bottom:1.5vw;
+}
+
+/* about project */
+.about_divider{
+    font-family: 'Spectral';
+    margin-top:5vw;
+
+  
+}
+
+.project_intro{
+    width:70%;
+    text-align: justify;
+    margin:auto !important;
+    
+}
+
+/* interface about */
+
+.interface_intro{
+    /* font-family: 'Spectral'; */
+    width:70%;
+    text-align: justify;
+    margin:auto !important;
+
+}
+
+.interface_image_intro{
+    width:70%;
+    text-align: justify;
+    margin:auto !important;
+}
+
+.interface_image_col{
+    background-color:black;
+    border:9px solid #ff3c38  !important;
+
+}
+.vending_machine_image{
+    width:20vw;
+    height:35vw;
+  
+}
+
+.interface_image{
+    width:10vw;
+    height:33vw;
+    /* margin-left:1vw; */
+}
+
+.interface_parts_description{
+    margin-top:3vw;
+}
+
+.badge1{
+    width:30vw;
+    height:5vw;
+    margin:auto !important;
+    margin-bottom:0.2vw !important;
+
+
+    font-size:1.06vw;
+    text-align:justify !important;
+
+    border:9px solid  #ff3c38 !important;
+}
+
+/* observations */
+.observation_divider{
+    font-family: 'Spectral';
+
+    margin-top:1vw;
+}
+
+.observations_list{
+    width:70%;
+
+    text-align: justify;
+
+    margin:auto !important 
+    
+}
+
+/* questions */
+.questions_divider{
+    font-family: 'Spectral';
+
+    margin-top:1vw;
+}
+
+.questions_list{
+    width:70%;
+
+    text-align: justify;
+
+    margin:auto !important 
+}
+/* answers */
+
+.answers_divider{
+    font-family: 'Spectral';
+
+    margin-top:1vw;
+}
+
+.answers_list{
+    width:70%;
+
+    text-align: justify;
+
+    margin:auto !important 
+}
+/* empathy mapps */
+
+.empathy_map_divider{
+    margin-top:1vw;
+}
+
+.alicia_persona{
+    width:30vw;
+    height:61.6279068vw;
+
+    margin-left:2.5vw;;
+    /* margin-left:3vw; */
+}
+
+.alicia_col{
+    margin-bottom:2vw;
+
+    background-color:black;
+    border:9px solid  #ff3c38 !important;
+}
+
+.eric_persona{
+    width:26vw;
+    height:61.6279068vw;
+
+    margin-left:2.5vw;
+}
+
+.eric_col{
+    margin-left:1vw;
+    margin-bottom:2vw;
+
+    background-color:black;
+    border:9px solid  #ff3c38!important;
+
+}
+
+.storyboard_divider{
+    font-family: 'Spectral';
+
+    margin-top:1vw;
+    display:in-line block;
 }
