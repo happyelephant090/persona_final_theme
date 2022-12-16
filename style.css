@@ -1,3 +1,58 @@
+/* baskervville-regular - latin */
+@font-face {
+    font-family: 'Baskervville';
+    font-style: normal;
+    font-weight: 400;
+    src: url('fonts/baskervville-v13-latin/baskervville-v13-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('fonts/baskervville-v13-latin/baskervville-v13-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('fonts/baskervville-v13-latin/baskervville-v13-latin-regular.ttf') format('woff2'), /* Super Modern Browsers */
+         url('fonts/baskervville-v13-latin/baskervville-v13-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('fonts/baskervville-v13-latin/baskervville-v13-latin-regular.woff') format('truetype'), /* Safari, Android, iOS */
+         url('fonts/baskervville-v13-latin/baskervville-v13-latin-regular.svg#Baskervville') format('svg'); /* Legacy iOS */
+  }
+
+  /* inika-regular - latin */
+@font-face {
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    src: url('fonts/inika-v21-latin/inika-v21-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('fonts/inika-v21-latin/inika-v21-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('fonts/inika-v21-latin/inika-v21-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('fonts/inika-v21-latin/inika-v21-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('fonts/inika-v21-latin/inika-v21-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('fonts/inika-v21-latin/inika-v21-latin-regular.svg#Inika') format('svg'); /* Legacy iOS */
+  }
+
+  /* iceland-regular - latin */
+@font-face {
+    font-family: 'Iceland';
+    font-style: normal;
+    font-weight: 400;
+    src: url('fonts/iceland-v16-latin/iceland-v16-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('fonts/iceland-v16-latin/iceland-v16-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('fonts/iceland-v16-latin/iceland-v16-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('fonts/iceland-v16-latin/iceland-v16-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('fonts/iceland-v16-latin/iceland-v16-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('fonts/iceland-v16-latin/iceland-v16-latin-regular.svg#Iceland') format('svg'); /* Legacy iOS */
+  }
+
+  /* homenaje-regular - latin */
+@font-face {
+    font-family: 'Homenaje';
+    font-style: normal;
+    font-weight: 400;
+    src: url('fonts/homenaje-v16-latin (1)/homenaje-v16-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('fonts/homenaje-v16-latin (1)/homenaje-v16-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('fonts/homenaje-v16-latin (1)/homenaje-v16-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('fonts/homenaje-v16-latin (1)/homenaje-v16-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('fonts/homenaje-v16-latin (1)/homenaje-v16-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('fonts/homenaje-v16-latin (1)/homenaje-v16-latin-regular.svg#Homenaje') format('svg'); /* Legacy iOS */
+  }
 
 body{
     background-color:#efa7a7 !important;
@@ -39,9 +94,6 @@ body{
     opacity:0.15;
 }
 
-h1{
-    color:#00043a;
-}
 
 .welcome_title{
     position:absolute;
@@ -72,7 +124,8 @@ h1{
 
 
 h1{
-    font-family: 'Squada One';
+    color:#081c15 ;
+    font-family: 'Inika' !important;
     text-align:center;
 }
 
@@ -88,7 +141,7 @@ h1{
 
 /* about project */
 .about_divider{
-    font-family: 'Spectral';
+    font-family: 'Homenaje';
     margin-top:5vw;
 }
 
@@ -157,7 +210,7 @@ h1{
 
 /* observations */
 .observation_divider{
-    font-family: 'Spectral';
+    font-family: 'Homenaje';
 
     margin-top:1vw;
 }
@@ -174,7 +227,7 @@ h1{
 
 /* questions */
 .questions_divider{
-    font-family: 'Spectral';
+    font-family: 'Homenaje';
 
     margin-top:1vw;
 }
@@ -190,7 +243,7 @@ h1{
 /* answers */
 
 .answers_divider{
-    font-family: 'Spectral';
+    font-family: 'Homenaje';
 
     margin-top:1vw;
 }
@@ -241,7 +294,7 @@ h1{
 }
 
 .storyboard_divider{
-    font-family: 'Spectral';
+    font-family: 'Homenaje';
 
     margin-top:1vw;
     display:in-line block;
@@ -251,11 +304,24 @@ h1{
     width:50vw;
     height:40vw;
     border:9px solid  #ff3c38!important;
+    margin-bottom:1vw;
+}
+
+.reflection_divider{
+    font-family: 'Homenaje';
+
+    margin-top:2vw !important;
+    display:in-line block;
 }
 
 .observation_description{
+    font-family: 'Homenaje';
     width:70vw;
     /* margin-left:12vw; */
     margin:auto !important;
     font-size:1.5vw;
+}
+
+footer{
+    border-top: 1vw solid #540b0e;
 }
