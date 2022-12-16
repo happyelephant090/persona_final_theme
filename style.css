@@ -1,0 +1,327 @@
+/* baskervville-regular - latin */
+@font-face {
+    font-family: 'Baskervville';
+    font-style: normal;
+    font-weight: 400;
+    src: url('fonts/baskervville-v13-latin/baskervville-v13-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('fonts/baskervville-v13-latin/baskervville-v13-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('fonts/baskervville-v13-latin/baskervville-v13-latin-regular.ttf') format('woff2'), /* Super Modern Browsers */
+         url('fonts/baskervville-v13-latin/baskervville-v13-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('fonts/baskervville-v13-latin/baskervville-v13-latin-regular.woff') format('truetype'), /* Safari, Android, iOS */
+         url('fonts/baskervville-v13-latin/baskervville-v13-latin-regular.svg#Baskervville') format('svg'); /* Legacy iOS */
+  }
+
+  /* inika-regular - latin */
+@font-face {
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    src: url('fonts/inika-v21-latin/inika-v21-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('fonts/inika-v21-latin/inika-v21-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('fonts/inika-v21-latin/inika-v21-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('fonts/inika-v21-latin/inika-v21-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('fonts/inika-v21-latin/inika-v21-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('fonts/inika-v21-latin/inika-v21-latin-regular.svg#Inika') format('svg'); /* Legacy iOS */
+  }
+
+  /* iceland-regular - latin */
+@font-face {
+    font-family: 'Iceland';
+    font-style: normal;
+    font-weight: 400;
+    src: url('fonts/iceland-v16-latin/iceland-v16-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('fonts/iceland-v16-latin/iceland-v16-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('fonts/iceland-v16-latin/iceland-v16-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('fonts/iceland-v16-latin/iceland-v16-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('fonts/iceland-v16-latin/iceland-v16-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('fonts/iceland-v16-latin/iceland-v16-latin-regular.svg#Iceland') format('svg'); /* Legacy iOS */
+  }
+
+  /* homenaje-regular - latin */
+@font-face {
+    font-family: 'Homenaje';
+    font-style: normal;
+    font-weight: 400;
+    src: url('fonts/homenaje-v16-latin (1)/homenaje-v16-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('fonts/homenaje-v16-latin (1)/homenaje-v16-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('fonts/homenaje-v16-latin (1)/homenaje-v16-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('fonts/homenaje-v16-latin (1)/homenaje-v16-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('fonts/homenaje-v16-latin (1)/homenaje-v16-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('fonts/homenaje-v16-latin (1)/homenaje-v16-latin-regular.svg#Homenaje') format('svg'); /* Legacy iOS */
+  }
+
+body{
+    background-color:#efa7a7 !important;
+    
+}
+
+.navbar{
+    background-color:#540b0e;
+    border-bottom: 1vw solid #220901;
+}
+
+.nav-brand{
+    text-decoration:none;
+    font-size: 2.1rem;
+    font-weight:bolder;
+    line-height: 1.5em;
+    letter-spacing:5px;
+    font-family:'Courier New', Courier, monospace;
+
+    padding-top:0.1px;
+    margin-left:1vw;
+}
+
+.nav-item{
+    padding-top:5px;
+
+    border-right:2.5px solid black;
+
+
+    font-family:'Courier New', Courier, monospace; 
+
+    cursor:grab;
+}
+
+
+.persona_image{
+    width:7vw;
+    height:4vw;
+    opacity:0.15;
+}
+
+
+.welcome_title{
+    position:absolute;
+    left: 31.3vw;;
+    top: 18.5vw;
+    width: 555px;
+    height: 200px;
+    z-index: 2;
+    color:#00043a;
+    font-weight:bold;
+
+}
+
+.intro_divider{
+    margin-top:5vw;
+    min-height:65vh;
+    border:3vw solid white;
+    background-image: radial-gradient( #f25c54,#540b0e) !important; 
+}
+
+.underline{
+    margin-left:1vw;
+    margin-right:1vw;
+    margin-bottom:3vw;
+
+    border:9px solid #e01e37;
+}
+
+
+h1{
+    color:#081c15 ;
+    font-family: 'Inika' !important;
+    text-align:center;
+}
+
+.dorito_image{
+    height:3vw;
+    width:18vw;
+}
+
+.chips_divider{
+    margin-left:4.5vw;
+    margin-bottom:1.5vw;
+}
+
+/* about project */
+.about_divider{
+    font-family: 'Homenaje';
+    margin-top:5vw;
+}
+
+.project_intro{
+    width:70%;
+    text-align: justify;
+    margin:auto !important;
+    font-size:1.5vw;
+    text-align:left !important;
+    
+    
+}
+
+/* interface about */
+
+.interface_intro{
+    /* font-family: 'Spectral'; */
+    width:70%;
+    text-align: justify;
+    margin:auto !important;
+    font-size:1.5vw;
+
+}
+
+.interface_image_intro{
+    width:70%;
+    text-align: justify;
+    margin:auto !important;
+    font-size:1.5vw;
+}
+
+.interface_image_col{
+    background-color:black;
+    border:9px solid #ff3c38  !important;
+
+}
+.vending_machine_image{
+    width:20vw;
+    height:35vw;
+  
+}
+
+.interface_image{
+    width:10vw;
+    height:33vw;
+    /* margin-left:1vw; */
+}
+
+.interface_parts_description{
+    margin-top:3vw;
+}
+
+.badge1{
+    width:30vw;
+    height:6vw;
+    margin:auto !important;
+    margin-bottom:0.2vw !important;
+
+
+    font-size:1.06vw;
+    text-align:justify !important;
+
+    border:9px solid  #ff3c38 !important;
+    font-size:1.5vw;
+}
+
+/* observations */
+.observation_divider{
+    font-family: 'Homenaje';
+
+    margin-top:1vw;
+}
+
+.observations_list{
+    width:70%;
+
+    text-align: justify;
+
+    margin:auto !important ;
+    font-size:1.5vw;
+    
+}
+
+/* questions */
+.questions_divider{
+    font-family: 'Homenaje';
+
+    margin-top:1vw;
+}
+
+.questions_list{
+    width:70%;
+
+    text-align: justify;
+
+    margin:auto !important;
+    font-size:1.5vw; 
+}
+/* answers */
+
+.answers_divider{
+    font-family: 'Homenaje';
+
+    margin-top:1vw;
+}
+
+.answers_list{
+    width:70%;
+
+    text-align: justify;
+
+    margin:auto !important ;
+    font-size:1.5vw;
+}
+/* empathy mapps */
+
+.empathy_map_divider{
+    margin-top:1vw;
+}
+
+.alicia_persona{
+    width:30vw;
+    height:61.6279068vw;
+
+    margin-left:2.5vw;;
+    /* margin-left:3vw; */
+}
+
+.alicia_col{
+    margin-bottom:2vw;
+
+    background-color:black;
+    border:9px solid  #ff3c38 !important;
+}
+
+.eric_persona{
+    width:26vw;
+    height:61.6279068vw;
+
+    margin-left:2.5vw;
+}
+
+.eric_col{
+    margin-left:1vw;
+    margin-bottom:2vw;
+
+    background-color:black;
+    border:9px solid  #ff3c38!important;
+
+}
+
+.storyboard_divider{
+    font-family: 'Homenaje';
+
+    margin-top:1vw;
+    display:in-line block;
+}
+
+.storyboard{
+    width:50vw;
+    height:40vw;
+    border:9px solid  #ff3c38!important;
+    margin-bottom:1vw;
+}
+
+.reflection_divider{
+    font-family: 'Homenaje';
+
+    margin-top:2vw !important;
+    display:in-line block;
+}
+
+.observation_description{
+    font-family: 'Homenaje';
+    width:70vw;
+    /* margin-left:12vw; */
+    margin:auto !important;
+    font-size:1.5vw;
+}
+
+footer{
+    border-top: 1vw solid #540b0e;
+}
