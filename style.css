@@ -1,18 +1,15 @@
 
 body{
-    /* background: linear-gradient(135deg, #eee, #ccc); */
     background-color:#efa7a7 !important;
     
 }
 
 .navbar{
-    /* background-image: linear-gradient(to bottom right,#540b0e, #f25c54) !important; */
     background-color:#540b0e;
     border-bottom: 1vw solid #220901;
 }
 
 .nav-brand{
-    /* color: white !important;  */
     text-decoration:none;
     font-size: 2.1rem;
     font-weight:bolder;
@@ -25,42 +22,44 @@ body{
 }
 
 .nav-item{
-    /* padding-left:15px;
-    padding-right:15px; */
     padding-top:5px;
 
     border-right:2.5px solid black;
 
 
-    /* font-size: 0.95rem;
-    letter-spacing:2px; */
-    /* text-decoration:underline; */
     font-family:'Courier New', Courier, monospace; 
 
     cursor:grab;
 }
 
-/* .navbar-brand:hover{
-    color:#3C0000 !important;
-} */
 
 .persona_image{
     width:7vw;
     height:4vw;
-    /* margin-top:5vw; */
+    opacity:0.15;
 }
 
 h1{
-    /* margin-left:3vw;
-    margin-right:3vw; */
     color:#00043a;
+}
+
+.welcome_title{
+    position:absolute;
+    left: 31.3vw;;
+    top: 18.5vw;
+    width: 555px;
+    height: 200px;
+    z-index: 2;
+    color:#00043a;
+    font-weight:bold;
+
 }
 
 .intro_divider{
     margin-top:5vw;
     min-height:65vh;
     border:3vw solid white;
-    background-image: linear-gradient(to bottom,#540b0e, #f25c54) !important; 
+    background-image: radial-gradient( #f25c54,#540b0e) !important; 
 }
 
 .underline{
@@ -97,7 +96,9 @@ h1{
     width:70%;
     text-align: justify;
     margin:auto !important;
-    font-size:1.2vw;
+    font-size:1.5vw;
+    text-align:left !important;
+    
     
 }
 
@@ -108,7 +109,7 @@ h1{
     width:70%;
     text-align: justify;
     margin:auto !important;
-    font-size:1.2vw;
+    font-size:1.5vw;
 
 }
 
@@ -116,7 +117,7 @@ h1{
     width:70%;
     text-align: justify;
     margin:auto !important;
-    font-size:1.2vw;
+    font-size:1.5vw;
 }
 
 .interface_image_col{
@@ -142,7 +143,7 @@ h1{
 
 .badge1{
     width:30vw;
-    height:5vw;
+    height:6vw;
     margin:auto !important;
     margin-bottom:0.2vw !important;
 
@@ -151,7 +152,7 @@ h1{
     text-align:justify !important;
 
     border:9px solid  #ff3c38 !important;
-    font-size:1.2vw;
+    font-size:1.5vw;
 }
 
 /* observations */
@@ -167,7 +168,7 @@ h1{
     text-align: justify;
 
     margin:auto !important ;
-    font-size:1.2vw;
+    font-size:1.5vw;
     
 }
 
@@ -184,7 +185,7 @@ h1{
     text-align: justify;
 
     margin:auto !important;
-    font-size:1.2vw; 
+    font-size:1.5vw; 
 }
 /* answers */
 
@@ -200,7 +201,7 @@ h1{
     text-align: justify;
 
     margin:auto !important ;
-    font-size:1.2vw;
+    font-size:1.5vw;
 }
 /* empathy mapps */
 
@@ -244,4 +245,17 @@ h1{
 
     margin-top:1vw;
     display:in-line block;
+}
+
+.storyboard{
+    width:50vw;
+    height:40vw;
+    border:9px solid  #ff3c38!important;
+}
+
+.observation_description{
+    width:70vw;
+    /* margin-left:12vw; */
+    margin:auto !important;
+    font-size:1.5vw;
 }
